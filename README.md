@@ -1,6 +1,9 @@
 ![header](https://capsule-render.vercel.app/api?type=slice&color=auto&height=300&section=header&text=Algorithm&fontSize=80&rotate=20&fontAlign=70&fontAlignY=20&desc=Mai%20paura!&descSize=25&descAlign=84&descAlignY=40)
 
 
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=thelittleho)](https://solved.ac/profile/freshsider) [![Solved.ac Profile](https://mazandi.herokuapp.com/api?handle=thelittleho&theme=cool)](https://solved.ac/profile/freshsider)
+
+
 - 자료구조와 함께 배우는 알고리즘 입문 (파이썬 편)   
      1. 알고리즘의 기초 ☑️
 
