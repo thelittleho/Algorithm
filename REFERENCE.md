@@ -4,6 +4,8 @@
 - 유형별 문제 찾기    
 [3. 백준 유형별로 미는법](https://velog.io/@skiende74/3.-%EB%B0%B1%EC%A4%80-%EC%9C%A0%ED%98%95%EB%B3%84%EB%A1%9C-%EB%AF%B8%EB%8A%94%EB%B2%95)
 
+---
+
 - 정렬 알고리즘
   - 퀵 정렬    
     [퀵 정렬(quick sort)이란](https://gmlwjd9405.github.io/2018/05/10/algorithm-quick-sort.html)
