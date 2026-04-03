@@ -11,6 +11,7 @@
     [퀵 정렬(quick sort)이란](https://gmlwjd9405.github.io/2018/05/10/algorithm-quick-sort.html)
   - 병합 정렬    
     [합병 정렬(merge sort)이란](https://gmlwjd9405.github.io/2018/05/08/algorithm-merge-sort.html)
+    [[110일차]병합정렬 알고리즘(merge-sort)](https://sleepybird.tistory.com/133)
  
 - 탐색 알고리즘
   - 이진 탐색    

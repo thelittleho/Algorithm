@@ -1,35 +1,45 @@
 import random
 
+# 1. 분할과 정렬을 함께 수행하는 퀵 정렬 함수
+def quick_sort(array, start, end):
+    # [탈출 조건] 원소가 1개 이하인 경우 더 이상 쪼갤 필요가 없으므로 종료
+    if start >= end:
+        return
+    
+    pivot = start
+    low = start + 1
+    high = end
+    
+    # [방금 전까지 만들었던 파티션 로직]
+    while low <= high:
+        # low는 피벗보다 큰 값을 찾을 때까지 전진 (리스트 범위 초과 방지 조건 추가)
+        while low <= end and array[low] <= array[pivot]:
+            low += 1
+            
+        # high는 피벗보다 작은 값을 찾을 때까지 전진 (리스트 범위 초과 방지 조건 추가)
+        while high > start and array[high] > array[pivot]:
+            high -= 1
+            
+        if low < high:
+            array[low], array[high] = array[high], array[low]
+
+    # 분할이 끝나면 피벗과 high(피벗보다 작은 그룹의 마지막) 교체
+    array[pivot], array[high] = array[high], array[pivot]
+    
+    # 2. [핵심] 분할된 좌항과 우항에 대해 자기 자신을 다시 호출 (재귀)
+    # 현재 high의 위치에는 피벗이 들어가서 확정되었으므로, 그 양옆을 다시 정렬합니다.
+    quick_sort(array, start, high - 1) # 좌항 정렬
+    quick_sort(array, high + 1, end)   # 우항 정렬
+
+# --- 실행 부분 ---
 array = []
 array_range = random.randint(7, 14)
+for i in range(array_range):
+    array.append(random.randint(1, 50))
 
-for i in range(0, array_range):
-    number = random.randint(1, 50)
-    array.append(number)
+print("정렬 전:", array)
 
-print(array)
+# 리스트의 처음(0)부터 끝(len-1)까지를 대상으로 퀵 정렬 시작
+quick_sort(array, 0, len(array) - 1)
 
-# pivot을 리스트의 0으로 설정
-pivot = 0
-# low = 1, high = len(array)로 설정해 오름차순에 맞지않으면 맞도록 교환
-low = 1
-high = len(array) - 1
-
-print(array[pivot])
-
-while(low < high): # low가 high보다 인덱스 번호가 클 때 교환 작업을 종료
-    if array[low] < array[pivot]:
-        low += 1
-    if array[high] > array[pivot]:
-        high -= 1
-    if array[low] > array[high]:
-        array[low], array[high] = array[high], array[low]
-    low += 1
-    high -= 1    
-
-# 그리고 high와 pivet과 교체
-array[pivot], array[high] = array[high], array[pivot]
-
-print(array)
-
-# 0부터 high까지 퀵 정렬, high부터 끝까지 퀵정렬을 시행한다.
+print("정렬 후:", array)
