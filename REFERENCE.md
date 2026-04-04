@@ -28,7 +28,9 @@
     - [[Javascript]빅오 표기법 정리 및 예제](https://itprogramming119.tistory.com/entry/Javascript-%EB%B9%85%EC%98%A4-%ED%91%9C%EA%B8%B0%EB%B2%95-%EC%A0%95%EB%A6%AC-%EB%B0%8F-%EC%97%B0%EC%8A%B5-%EB%AC%B8%EC%A0%9C)    
 
 - C++ 기본 STL
-  - vector
+  - vector    
+    [[C++] STL vector 정리](https://mojing.tistory.com/entry/C-STL-vector-%EC%A0%95%EB%A6%AC)    
+    [[C++] STL vector 사용법](https://mojing.tistory.com/entry/C-STL-vector-%EC%82%AC%EC%9A%A9%EB%B2%95)
   - queue
   - stack
   - map
