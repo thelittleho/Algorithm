@@ -16,6 +16,7 @@
  
 - 탐색 알고리즘
   - 이진 탐색    
+    [[107일차]이진탐색 알고리즘](https://sleepybird.tistory.com/132?category=913100)
 
 - 그래프 탐색
   - DFS    
