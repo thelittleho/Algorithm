@@ -18,7 +18,7 @@ BFS는 **큐(Queue)**라는 자료구조를 사용하여 다음에 방문할 노
 ---
 
 ### 🏃‍♂️ 탐색 예시 (흐름 이해하기)
-![alt text](image/bfs.png)
+![alt text](../image/bfs.png)
 # 🔍 너비 우선 탐색 (BFS, Breadth-First Search) 이해하기
 
 ## 🗺️ 시작 그래프 상황
