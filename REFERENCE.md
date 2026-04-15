@@ -23,7 +23,8 @@
     [[Algorithm] 깊이우선탐색(DFS)과 너비우선탐색(BFS)](https://velog.io/@falling_star3/2.-%EA%B9%8A%EC%9D%B4%EC%9A%B0%EC%84%A0%ED%83%90%EC%83%89DFS%EA%B3%BC-%EB%84%93%EC%9D%B4%EC%9A%B0%EC%84%A0%ED%83%90%EC%83%89BFS)
   - BFS    
     [[99일차]그래프 너비우선탐색법 (BFS)](https://sleepybird.tistory.com/130)
-
+- DP
+  [DP를 더 이해하고 푸는 과정 🎰](https://velog.io/@chisae/DP%EC%9D%98-%EA%B0%9C%EB%85%90-%EB%B0%8F-%EC%9D%B4%ED%95%B4)
 - 시간/공간 복잡도
   - 빅오 표기법    
     - [빅오(Big-O)표기법 쉽게 이해하기](https://www.youtube.com/watch?v=5Ky59iblLBI)    
